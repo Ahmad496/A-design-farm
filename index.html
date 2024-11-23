@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design Farm</title>
     <!-- fontFamily CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <!-- fontAwesome CDN -->
     <script
       src="https://kit.fontawesome.com/bf0c2d4822.js"
@@ -29,9 +29,11 @@
         theme: {
           extend: {
             backgroundImage: {
+              "form-bg": "url('/assets/bg.jpg')",
               "custom-gradient":
                 "linear-gradient(0deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%)",
             },
+
             colors: {
               clifford: "#da373d",
               "text-heading-color": "#212121",
@@ -265,7 +267,7 @@
             <div
               class="max-w-3xl border border-[#E9E9E9] rounded-2xl lg:flex p-5 gap-x-4"
             >
-              <img src="./assets/img1.png" alt="" />
+              <div class="w-full"><img src="./assets/img1.png" alt="" /></div>
               <div class="space-y-4">
                 <span class="text-[#494949] text-2xl font-extrabold"
                   >Commercial</span
@@ -288,7 +290,7 @@
             <div
               class="max-w-sm flex justify-center border border-[#E9E9E9] text-center p-5 rounded-2xl"
             >
-              <img src="./assets/img2.png" alt="" />
+              <div class="w-full"><img src="./assets/img2.png" alt="" /></div>
             </div>
           </div>
           <div class="lg:flex justify-center items-center gap-x-6">
@@ -298,7 +300,7 @@
             <div
               class="max-w-xl border border-[#E9E9E9] rounded-2xl lg:flex p-5 gap-x-4"
             >
-              <img src="./assets/img4.png" alt="" />
+              <div class="w-full"><img src="./assets/img4.png" alt="" /></div>
               <div class="space-y-4">
                 <span class="text-[#494949] text-2xl font-extrabold"
                   >Commercial</span
@@ -320,12 +322,84 @@
             <div
               class="max-w-max border border-[#E9E9E9] lg:flex justify-center items-center p-5 rounded-2xl"
             >
-              <img src="./assets/img5.png" alt="" />
+              <div class="w-full">
+                <img src="./assets/img5.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- next project section starts here -->
+      <div class="w-full mx-auto bg-[url('./assets/bg.jpg')] pt-5">
+        <!-- <img src="./assets/bg.jpg" alt="" /> -->
+
+        <div
+          class="max-w-3xl border border-green-600 mx-auto text-center space-y-5"
+        >
+          <div class="space-x-1">
+            <button
+              class="bg-[#acef5f64] px-4 py-2 rounded-3xl text-base font-bold text-[#494949]"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+              Let’s Connect
+            </button>
+          </div>
+          <h1 class="text-4xl font-extrabold text-[#212121]">
+            Let’s Discuss Next Project
+          </h1>
+          <p class="text-[#494949] text-base font-bold">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+          <form action="">
+            <input type="text" name="" id="" placeholder="First Name*" />
+            <input type="text" name="" id="" placeholder="Last Name*" />
+            <input type="tel" name="" id="" placeholder="Phone Number*" />
+            <input type="email" name="" id="" placeholder="Email Number*" />
+            <textarea name="" id="">Write your message here</textarea>
+            <input type="button" value="" placeholder="Send Mail" />
+          </form>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <!-- <div class="h-52 border border-red-500 bg-[url('./assets/bg.jpg')]"></div> -->
+      <div class="w-full bg-[#1C1C1C] h-auto py-24">
+        <div class="max-w-2xl mx-auto border-5 border-green-950 mt-5">
+          <div class="flex gap-x-2 justify-center mb-4">
+            <i
+              class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45 text-black"
+            ></i>
+            <h1 class="text-3xl text-[#E9E9E9] font-extrabold">Rinterio</h1>
+          </div>
+          <div>
+            <p class="text-[#737373] text-center mb-12">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+        </div>
+        <div
+          class="max-w-3xl mx-auto flex flex-col justify-center items-center gap-y-12"
+        >
+          <ul class="text-[#E9E9E9] flex gap-x-28 justify-center">
+            <a href="#"><li class="text-base font-normal">Home</li></a>
+            <a href="#"><li class="text-base font-normal">Services</li></a>
+            <a href="#"><li class="text-base font-normal">Portfolio</li></a>
+            <a href="#"><li class="text-base font-normal">Blogs</li></a>
+            <a href="#"><li class="text-base font-normal">Contact Us</li></a>
+          </ul>
+          <button
+            class="flex flex-row justify-center items-center gap-4 btn bg-[#ABEF5F] rounded-full"
+          >
+            <h1 class="font-extrabold text-sm">Book Consult</h1>
+            <i
+              class="fa-solid fa-arrow-right bg-[#1c1c1c] p-2 rounded-full -rotate-45 text-white"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
