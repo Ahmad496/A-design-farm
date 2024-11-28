@@ -267,7 +267,9 @@
             <div
               class="max-w-3xl border border-[#E9E9E9] rounded-2xl lg:flex p-5 gap-x-4"
             >
-              <div class="w-full"><img src="./assets/img1.png" alt="" /></div>
+              <div class="w-full">
+                <img class="w-full h-full" src="./assets/img1.png" alt="" />
+              </div>
               <div class="space-y-4">
                 <span class="text-[#494949] text-2xl font-extrabold"
                   >Commercial</span
@@ -290,17 +292,21 @@
             <div
               class="max-w-sm flex justify-center border border-[#E9E9E9] text-center p-5 rounded-2xl"
             >
-              <div class="w-full"><img src="./assets/img2.png" alt="" /></div>
+              <div class="w-full">
+                <img class="w-full h-full" src="./assets/img2.png" alt="" />
+              </div>
             </div>
           </div>
           <div class="lg:flex justify-center items-center gap-x-6">
-            <div class="border border-[#E9E9E9] p-5 rounded-2xl">
-              <img src="./assets/img3.png" alt="" />
+            <div class="w-full border border-[#E9E9E9] p-5 rounded-2xl">
+              <img class="w-full h-full" src="./assets/img3.png" alt="" />
             </div>
             <div
-              class="max-w-xl border border-[#E9E9E9] rounded-2xl lg:flex p-5 gap-x-4"
+              class="lg:max-w-xl border border-[#E9E9E9] rounded-2xl lg:flex p-5 gap-x-4"
             >
-              <div class="w-full"><img src="./assets/img4.png" alt="" /></div>
+              <div class="w-full">
+                <img class="w-full h-full" src="./assets/img4.png" alt="" />
+              </div>
               <div class="space-y-4">
                 <span class="text-[#494949] text-2xl font-extrabold"
                   >Commercial</span
@@ -320,10 +326,10 @@
               </div>
             </div>
             <div
-              class="max-w-max border border-[#E9E9E9] lg:flex justify-center items-center p-5 rounded-2xl"
+              class="lg:max-w-max border border-[#E9E9E9] lg:flex justify-center items-center p-5 rounded-2xl"
             >
               <div class="w-full">
-                <img src="./assets/img5.png" alt="" />
+                <img class="w-full h-full" src="./assets/img5.png" alt="" />
               </div>
             </div>
           </div>
@@ -356,32 +362,32 @@
           </div>
           <form action="">
             <div class="space-y-5">
-              <div class="space-y-5 lg:grid grid-cols-2 gap-2 rounded-full">
+              <div class="grid grid-cols-6 gap-3">
                 <input
-                  class="p-3 lg:p-5 w-9/12 rounded-full text-[#A0A0A0]"
+                  class="p-3 col-span-3 rounded-full text-[#A0A0A0]"
                   type="text"
                   name=""
                   id=""
                   placeholder="First Name*"
                 />
                 <input
-                  class="w-9/12 p-3 lg:p-5 rounded-full text-[#A0A0A0]"
+                  class="p-3 col-span-3 rounded-full text-[#A0A0A0]"
                   type="text"
                   name=""
                   id=""
                   placeholder="Last Name*"
                 />
               </div>
-              <div class="space-y-5 lg:grid grid-cols-2 gap-2">
+              <div class="grid grid-cols-2 gap-3">
                 <input
-                  class="w-9/12 p-3 lg:p-5 rounded-full text-[#A0A0A0]"
+                  class="p-3 col-span-1 rounded-full text-[#A0A0A0]"
                   type="tel"
                   name=""
                   id=""
                   placeholder="Phone Number*"
                 />
                 <input
-                  class="w-9/12 p-3 lg:p-5 rounded-full text-[#A0A0A0]"
+                  class="p-3 col-span-1 rounded-full text-[#A0A0A0]"
                   type="email"
                   name=""
                   id=""
@@ -393,7 +399,7 @@
                 name=""
                 id=""
               >
-  Write your message here</textarea
+      Write your message here</textarea
               >
             </div>
             <input type="button" value="" placeholder="Send Mail" />
@@ -453,5 +459,216 @@
         </div>
       </div>
     </footer>
+    <!-- <section class="max-w-6xl mx-auto"> -->
+    <!-- <div class="grid grid-cols-12">
+      <div class="col-span-9 border border-green-500">
+        <div class="lg:flex">
+          <div
+            class="w-full col-span-12 md:col-span-3 border border-yellow-500"
+          >
+            <img
+              class="w-full h-full object-cover p-5"
+              src="./assets/img1.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="space-y-4 col-span-12 md:col-span-6 p-2 border border-red-500"
+          >
+            <span class="text-[#494949] text-2xl font-extrabold"
+              >Commercial</span
+            >
+            <p class="text-[#737373] text-base font-bold">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <button
+              class="lg:flex justify-center items-center gap-4 btn rounded-full"
+            >
+              <h1 class="font-extrabold text-xl">View Details</h1>
+              <i
+                class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45 text-white"
+              ></i>
+            </button>
+          </div>
+        </div>
+        1
+      </div>
+      <div class="col-span-12 md:col-span-3 border border-blue-950">
+        2
+        <div class="w-full border border-[#E9E9E9] p-5 rounded-2xl">
+          <img
+            class="w-full h-full object-cover"
+            src="./assets/img2.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="col-span-12 md:col-span-2 border border-fuchsia-600">
+        <div class="w-full border border-[#E9E9E9] p-5 rounded-2xl">
+          <img class="w-full h-full" src="./assets/img3.png" alt="" />
+        </div>
+        3
+      </div>
+      <div class="col-span-12 md:col-span-8">
+        <div class="lg:flex">
+          <div
+            class="bg-red-500 col-span-12 md:col-span-4 border-2 border-cyan-500"
+          >
+            <img class="w-full bg-red-500" src="./assets/img4.png" alt="" />
+          </div>
+          <div
+            class="space-y-4 col-span-12 md:col-span-4 border border-yellow-500"
+          >
+            <span class="text-[#494949] text-2xl font-extrabold"
+              >Commercial</span
+            >
+            <p class="text-[#737373] text-base font-bold">
+              The barn house captivates with its blend of rustic charm and
+              modern.
+            </p>
+            <button
+              class="lg:flex justify-center items-center gap-4 btn rounded-full"
+            >
+              <h1 class="font-extrabold text-xl">View Details</h1>
+              <i
+                class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45 text-white"
+              ></i>
+            </button>
+          </div>
+        </div>
+        4
+      </div>
+      <div class="col-span-12 md:col-span-2 border border-green-500">
+        <div class="w-full">
+          <img class="w-full h-full" src="./assets/img5.png" alt="" />
+        </div>
+        5
+      </div>
+    </div> -->
+    <!-- </section> -->
+    <section class="max-w-6xl mx-auto gap-6">
+      <!-- 1st row -->
+      <!-- <div
+        class="grid grid-cols-12 justify-center items-center mx-auto p-5 gap-8 h-full"
+      >
+        <div
+          class="h-full col-span-3 border border-[#E9E9E9] rounded-2xl p-5 flex items-center object-cover"
+        >
+          <img
+            class="object-contain rounded-2xl"
+            src="./assets/img1.png"
+            alt=""
+          />
+        </div>
+        <div class="h-full col-span-5 border border-[#E9E9E9] rounded-2xl p-5">
+          <div class="space-y-4">
+            <span class="text-[#494949] text-2xl font-extrabold"
+              >Commercial</span
+            >
+            <p class="text-[#737373] text-base font-bold">
+              The barn house captivates with its blend of rustic charm and
+              modern. The barn house captivates with its blend of rustic charm
+              and modern .
+            </p>
+            <button
+              class="flex flex-row justify-center items-center gap-4 btn rounded-full"
+            >
+              <h1 class="font-extrabold text-xl">View Details</h1>
+              <i
+                class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45 text-white"
+              ></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="h-full col-span-4 border border-[#E9E9E9] rounded-2xl p-5">
+          <img class="h-full object-cover" src="./assets/img2.png" alt="" />
+        </div>
+      </div> -->
+      <div class="md:grid grid-cols-3 gap-5">
+        <div
+          class="col-span-2 md:grid grid-cols-3 p-5 border border-[#E9E9E9] rounded-2xl"
+        >
+          <img
+            class="h-full w-full object-cover rounded-2xl"
+            src="./assets/img1.png"
+            alt=""
+          />
+          <div class="col-span-2">
+            <div class="space-y-4 p-5">
+              <span class="text-[#494949] text-2xl font-extrabold"
+                >Commercial</span
+              >
+              <p class="text-[#737373] text-base font-bold">
+                The barn house captivates with its blend of rustic charm and
+                modern. The barn house captivates with its blend of rustic charm
+                and modern .
+              </p>
+              <button
+                class="flex flex-row justify-center items-center gap-4 btn rounded-full"
+              >
+                <h1 class="font-extrabold text-xl">View Details</h1>
+                <i
+                  class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45 text-white"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="p-5 border border-[#E9E9E9] rounded-2xl">
+          <img
+            class="h-full w-full object-cover rounded-2xl"
+            src="./assets/img2.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- 2nd row -->
+      <div class="md:grid grid-cols-4 gap-5">
+        <div class="p-5 border border-[#E9E9E9] rounded-2xl">
+          <img
+            class="h-full w-full object-cover rounded-2xl"
+            src="./assets/img3.png"
+            alt=""
+          />
+        </div>
+        <div class="col-span-2 p-5 border border-[#E9E9E9] rounded-2xl">
+          <div class="md:grid grid-cols-2 gap-6">
+            <img
+              class="h-full w-full object-cover rounded-2xl"
+              src="./assets/img4.png"
+              alt=""
+            />
+
+            <div class="space-y-4">
+              <span class="text-[#494949] text-2xl font-extrabold"
+                >Commercial</span
+              >
+              <p class="text-[#737373] text-base font-bold">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <button
+                class="flex flex-row justify-center items-center gap-4 btn rounded-full"
+              >
+                <h1 class="font-extrabold text-xl">View Details</h1>
+                <i
+                  class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full -rotate-45 text-white"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="p-5 border border-[#E9E9E9] rounded-2xl">
+          <img
+            class="h-full w-full object-cover"
+            src="./assets/img5.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
